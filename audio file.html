@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Audio Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="audiofile.css">
+</head>
+<body>
+    <div class="audio-container">
+        <div class="thumbnail">
+            <img src="https://res.cloudinary.com/dn7k0nzgp/image/upload/v1734945288/65cd9bac5368738bcd413cc54e24b99a_chbtpj.jpg" alt="Audio Thumbnail">
+        </div>
+        <div class="audio-info">
+            <h2>Bang Bang</h2>
+            <p>Premam • Haricharan</p>
+        </div>
+        <div class="audio-controls">
+            <button id="playButton">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 5.99988L19.5 12L8 18.0001V5.99988Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <button id="pauseButton" style="display: none;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://res.cloudinary.com/dn7k0nzgp/image/upload/v1735040693/creationswap6005_6005_5-1_hmtar0.jpg">
+                    <rect x="6" y="5.99988" width="4" height="16" rx="1" ry="1" fill="currentColor"/>
+                    <rect x="14" y="5.99988" width="4" height="16" rx="1" ry="1" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+        <audio id="audioPlayer" src="audio.html/audio.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+    <script src="audio.js"></script>
+</html>

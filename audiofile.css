@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.audio-container {
+    text-align: center;
+    width: 300px;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.audio-info {
+    margin-top: 10px;
+}
+
+.audio-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.audio-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #aaaaaa;
+}
+
+.audio-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.audio-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-controls button svg {
+    width: 24px;
+    height: 24px;
+    fill: #1DB954; /* Spotify green color */
+}
